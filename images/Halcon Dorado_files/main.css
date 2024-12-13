@@ -1,0 +1,74 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    background-color: rgb(211, 20, 20);
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+
+}
+section {
+    padding: 0px;
+    border: 0px;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+} 
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+img.img-1 {
+    position: relative;
+    width: 100%;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover {
+    color: whitesmoke;
+}
+.title-1 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.sobre-nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    height: 100px;
+    flex-direction: row;
+}
+.iconos-redes {
+    padding: 10px;
+    height: 20px;
+}
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.nav-link:hover {
+    color: whitesmoke;
+}
