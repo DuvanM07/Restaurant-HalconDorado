@@ -57,16 +57,20 @@ img.img-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background: rgba(0,0,0,.7);
+    height: 30rem;
 }
 p.p-sobre-nosotros {
-    display: flex
-;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 6rem;
     font-size: 2rem;
     color: white;
+    padding: 0 10rem;
+    margin: 0 auto;
+    
 }
 h1.title-1 {
     padding: 2rem 0;
@@ -86,6 +90,73 @@ nav a:hover {
     /* align-items: center; */
     justify-content: center;
 }
+
+.container {
+    max-width: 96vw;
+    margin: 0 auto;
+    padding: 0 .8rem;
+    box-sizing: border-box;    
+
+}
+.container-fluid {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    height: 30rem;
+}
+/* .container-menu {
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+
+} */
+.section-menu
+.main-filter {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding-left: 1rem;
+    max-width: 100%;
+    margin: 1.49rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.main-filter {
+    background-color: antiquewhite;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.card {
+    display: flex;
+}
+.card__image {
+    display: flex;
+    position: relative;
+    height: 20rem;
+}
+.product-image {
+    border-radius: .5rem;
+    object-fit: cover;
+    height: 100%;
+    border: 1px solid gray;
+}
+.card__info {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
 footer {
     align-items: center;
     text-align: center;
@@ -104,22 +175,6 @@ footer {
 }
 .nav-link:hover {
     color: whitesmoke;
-}
-.container {
-    border: 1px dotted blue;
-    max-width: 96vw;
-    margin: 0 auto;
-    padding: 0 .8rem;
-    box-sizing: border-box;    
-
-}
-.container-fluid{
-    border: 1px dotted blue;
-    max-width: 100vw;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    height: 30rem;
 }
 /** 567px --> 767px */
 @media ( min-width: 567px ) {
