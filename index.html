@@ -13,9 +13,9 @@
         <div class="container">
             <div class="logo">
                 <img src="./images/logo.jpg" alt="logo del restaurante" class="logo-nombre">
-                <p class="name-empresa">Halcon Dorado</p>
+                <h1 class="name-empresa">Halcon Dorado</h1>
             </div>
-            <nav>
+            <nav class="nav-header">
                 <a href="#carta" class="nav-link">Menu</a>
                 <a href="" class="nav-link">Contacto</a>
                 <a href="" class="nav-link">Ubicacion</a>
@@ -23,6 +23,14 @@
         </div>
     </header>
     <main>
+        <section class="section-delivery">
+            <div class="delivery-container1">
+                <div class="delivery-container2">Pide tu orden a domicilio y te llegara en pocos minutos (solo a nivel barrio)</div>
+                <button class="button-delivery">
+                    <a href="" class="delivery-link">Ordena Ahora Mismo!</a>
+                </button>
+            </div class="delivery">
+        </section>
         <section class="section section-sobre-nosotros">
             <div class="container-fluid">
                 <img src="./images/img-restaurant.jpg" alt="Foto: Imagen del interior del restaurante"
@@ -37,10 +45,11 @@
             </div> 
         </section>
         <section id="carta" class="section-menu">
-            <div class="main-filter">
+            <div class="main-card">
                 Menu Principal 
             </div>
-            <div class="main-content">
+            <!-- Falta ajustar imagenes con margin y padding con los card__info -->
+            <div class="main-content"> 
                 <div class="products">
                     <div class="card">
                         <div class="card__image">
@@ -48,8 +57,25 @@
                         </div>
                         <div class="card__info">
                             <div class="card__name">Anchor & James </div>
-                            <div class="card__location">American | DownTown Union street</div>
-                            <div class="card__price">$30 and under</div>
+                            <div class="card__location">Bogota | Suba-Tibabuyes</div>
+                            <div class="card__price">$15.000 Pesos Colombianos</div>
+                            <div class="card__score">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image">
+                            <img class="product-image" src="./images/product-1.png" alt="">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__name">Mojarra con papa francesa </div>
+                            <div class="card__location">Bogota | Suba-Tibabuyes</div>
+                            <div class="card__price">$15.000 Pesos Colombianos</div>
                             <div class="card__score">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -65,8 +91,8 @@
                         </div>
                         <div class="card__info">
                             <div class="card__name">Anchor & James </div>
-                            <div class="card__location">American | DownTown Union street</div>
-                            <div class="card__price">$30 and under</div>
+                            <div class="card__location">Bogota | Suba-Tibabuyes</div>
+                            <div class="card__price">$15.000 Pesos Colombianos</div>
                             <div class="card__score">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -76,26 +102,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card__image">
-                            <img class="product-image" src="./images/product-1.png" alt="">
-                        </div>
-                        <div class="card__info">
-                            <div class="card__name">Anchor & James </div>
-                            <div class="card__location">American | DownTown Union street</div>
-                            <div class="card__price">$30 and under</div>
-                            <div class="card__score">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                        </div>
+                    <div id="botton-menu">
+                        <button class="button-menu">
+                            <a href="" class="menu-link">AQUI !</a>
+                        </button>
                     </div>
                 </div>
-        </section>
-        <section class="section-ubicacion">Ubicacion</section>
+        </section> 
+        <!-- <section class="section-ubicacion">Ubicacion
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.0304021806518!2d-74.1121028303428!3d4.7489056997016545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85a9e4d8387b%3A0xa2d08a981d550804!2sHalcon%20Dorado!5e0!3m2!1ses!2sco!4v1734331385928!5m2!1ses!2sco">
+            </iframe>
+        </section> -->
     </main>
     <footer class="footer">
         <div class="footer-container">
